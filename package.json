@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "concurrently": "^4.0.1",
-    "react-sketchpad": "0.0.3",
     "rimraf": "^2.6.2"
   },
   "scripts": {

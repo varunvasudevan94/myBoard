@@ -22,5 +22,8 @@
     "build": "babel . --ignore node_modules,build --out-dir build",
     "start": "nodemon -r babel-register server.js",
     "start:prod": "node -r babel-register build/server.js"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }

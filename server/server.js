@@ -20,6 +20,8 @@ router.get('/cities', (req, res) => {
   res.json(cities)
 })
 
+// Use io-socket over here
+
 app.use(router)
 
 // any routes not picked up by the server api will be handled by the react router

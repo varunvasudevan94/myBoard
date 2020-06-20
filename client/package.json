@@ -4,9 +4,11 @@
   "private": true,
   "proxy": "http://localhost:3001",
   "dependencies": {
-    "react-scripts": "1.1.5",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-scripts": "1.1.5",
+    "react-sketchpad": "git+https://github.com/varunvasudevan94/react-sketchpad.git",
+    "socket.io-client": "^2.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

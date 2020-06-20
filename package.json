@@ -6,7 +6,7 @@
   "license": "MIT",
   "homepage": "https://react-express-heroku.herokuapp.com",
   "engines": {
-    "node": "6.9.1"
+    "node": "10.x"
   },
   "dependencies": {
     "concurrently": "^4.0.1",

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { SketchPad, TOOL_PENCIL, TOOL_LINE, TOOL_RECTANGLE, TOOL_ELLIPSE } from 'react-sketchpad';
-import IO from 'socket.io-client'
+import IO from 'socket.io-client/dist/socket.io.js';
 
 const wsClient = IO(':3001');
 

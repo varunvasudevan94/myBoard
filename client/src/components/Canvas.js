@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
-import { SketchPad, TOOL_PENCIL, TOOL_LINE, TOOL_RECTANGLE, TOOL_ELLIPSE } from 'react-sketchpad';
+import { SketchPad, TOOL_PENCIL } from 'react-sketchpad';
 import IO from 'socket.io-client/dist/socket.io.js';
 
-const wsClient = IO(':3001');
+
+const HOST = window.location.origin.replace(/^http/, 'ws')
+const wsClient = IO(HOST);
 
 export  class Canvas extends Component
-{
+{   
   socket = null;
 
   constructor(props) {
